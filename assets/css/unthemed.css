@@ -1,0 +1,267 @@
+.htmlContainer-0-2-21 {}
+
+.htmlContainer-d0-0-2-22 {
+    height: 100vh;
+}
+
+.htmlContainer-d1-0-2-23 {
+    height: 924px;
+}
+
+.informationTimelineButton-0-2-307 {
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.informationTimelineButton-0-2-307>div {
+    outline: none;
+}
+
+.informationTimelineButton-0-2-307:focus {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+}
+
+.informationTimelineButton-0-2-307:active svg {
+    fill-opacity: 1;
+}
+
+.informationTimelineButton-0-2-307:hover svg,
+.informationTimelineButton-0-2-307:focus svg {
+    fill-opacity: 0.8;
+}
+
+.informationTimelineButton-0-2-307>div svg {
+    width: 16px;
+    height: 16px;
+}
+
+.channelListItem-0-2-242 {
+    display: flex;
+}
+
+.container-0-2-235 {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.content-0-2-236 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.channelList-0-2-237 {
+    color: #FFFFFF;
+    width: 100% !important;
+    height: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.channelList-0-2-237>div {
+    width: 100%;
+    position: relative;
+    margin-bottom: 330px;
+    padding-bottom: 0;
+}
+
+@media (min-width: 240px) {
+    .channelList-0-2-237>div {
+        margin-bottom: 180px;
+    }
+}
+
+@media (min-width: 375px) {
+    .channelList-0-2-237>div {
+        margin-bottom: 150px;
+    }
+}
+
+@media (min-width: 600px) {
+    .channelList-0-2-237>div {
+        margin-bottom: 210px;
+    }
+}
+
+@media (min-width: 768px) {
+    .channelList-0-2-237>div {
+        margin-bottom: 140px;
+    }
+}
+
+@media (min-width: 768px) {
+    .docked .channelList-0-2-237>div {
+        margin-bottom: 320px;
+    }
+}
+
+.controlsContainer-0-2-83 {
+    display: flex;
+    white-space: nowrap;
+    pointer-events: all;
+    justify-content: space-between;
+}
+
+.controlsContainer-0-2-83>div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.controlsContainer-0-2-83>div>div {
+    display: flex;
+    align-items: center;
+}
+
+.centerControls-0-2-84 {
+    justify-content: center;
+}
+
+.endControls-0-2-85 {
+    justify-content: flex-end;
+}
+
+.progressBarContainer-0-2-78 {
+    pointer-events: all;
+}
+
+.videoPlayerLayout-0-2-54 {
+    flex: 1;
+    display: flex;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+}
+
+.loadingLayout-0-2-59 {
+    width: 100%;
+    bottom: 0;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.loadingLayout-0-2-59>* {
+    flex: 1;
+}
+
+.loadingLayout-0-2-59>img {
+    animation: fade-in-delayed 1s;
+}
+
+.videoElementClosedCaptionsContainer-0-2-60 {
+    inset: 0px;
+    margin: auto;
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: flex-end;
+    aspect-ratio: 16 / 9;
+    justify-content: center;
+}
+
+@media (min-width: 0px) {
+    .videoElementClosedCaptionsContainer-0-2-60 {}
+}
+
+@media (min-width: 600px) {
+    .videoElementClosedCaptionsContainer-0-2-60 {
+        display: flex !important;
+    }
+}
+
+.videoElementClosedCaptionsContainer-0-2-60.is-docked {}
+
+.videoElementClosedCaptionsContainer-0-2-60.is-docked .videoElementClosedCaptions {
+    font-size: 0.8rem;
+}
+
+.videoElementClosedCaptionsWindow-0-2-61 {
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+
+.videoElementClosedCaptions-0-2-62 {
+    display: inline-block;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.videoElementClosedCaptions-0-2-62 p {
+    margin: 0px;
+}
+
+.videoElementClosedCaptionsContainer-d0-0-2-63 {}
+
+@media (min-width: 0px) {
+    .videoElementClosedCaptionsContainer-d0-0-2-63 {
+        display: flex;
+    }
+}
+
+.videoElementClosedCaptionsWindow-d2-0-2-64 {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.videoElementClosedCaptions-d3-0-2-65 {
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    font-family: "Captions Sans Serif", Arial, Swiss, sans-serif;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-shadow: none;
+}
+
+.videoContainer-0-2-55 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.videoContainer-0-2-55:focus {
+    outline: none;
+}
+
+.videoHolder-0-2-56 {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    position: relative;
+}
+
+.videoSizer-0-2-57 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    visibility: hidden;
+}
+
+.videoElement-0-2-58 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    transform: translate3d(0, 0, 0);
+}
+
+.videoElement-0-2-58 video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: absolute;
+}
+
+.videoElement-0-2-58 video::cue {
+    opacity: 0;
+}
