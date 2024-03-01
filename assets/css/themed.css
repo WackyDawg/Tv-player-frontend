@@ -20592,3 +20592,60 @@ h6 {
 
 sentinel {
 }
+
+
+
+/* new line */
+.hide-opacity {
+    opacity: 0;
+}
+
+.dockUpButton-0-2-294 {
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    border-radius: 50%;
+    flex-direction: column;
+  }
+
+  .dockUpButton-0-2-294 svg {
+    fill: #FFFFFF;
+  }
+
+  .dockUpButton-0-2-294:focus {
+    border: 1.5px solid;
+    padding: 7px;
+    border-color: #FFF200;
+    border-radius: 30px;
+  }
+
+  .dockUpButton-0-2-294[aria-disabled="true"],
+  .dockUpButton-0-2-294[aria-disabled="true"]:hover {
+    border: none !important;
+    cursor: auto;
+  }
+
+  .dockUpButton-0-2-294[aria-disabled="true"] svg,
+  .dockUpButton-0-2-294[aria-disabled="true"]:hover svg {
+    fill-opacity: 0.2 !important;
+  }
+
+  .dockUpButton-0-2-294[aria-disabled="true"] p,
+  .dockUpButton-0-2-294[aria-disabled="true"]:hover p {
+    display: none;
+  }
+
+  .dockUpButton-0-2-294:active svg {
+    fill: #FFFFFF;
+  }
+
+  .dockUpButton-0-2-294:hover svg,
+  .dockUpButton-0-2-294:focus svg {
+    fill: #FFFFFF;
+    fill-opacity: 0.8;
+  }
+
+  .expandText-0-2-295 {
+    margin: 0;
+  }
+
